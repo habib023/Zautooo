@@ -1,0 +1,5 @@
+{
+"connectionString": "mongodb://localhost/ZAuto", 
+"secret": "pipo,token,validate"
+
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ben-app",
+  "version": "1.0.0",
+  "description": "This is autoecole Zauto",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ben",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "fawn": "^2.1.5",
+    "joi": "^14.3.1",
+    "mongoose": "^5.4.2",
+    "nodemailer": "^5.1.1"
+  }
+}
