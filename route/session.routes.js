@@ -11,7 +11,7 @@ module.exports = (app) => {
     app.get('/session/:sessionId', session.findOne);
 
     // Update a Note with cartId
-   // app.put('/session/:sessionId', session.update);
+    app.put('/session/:sessionId', session.update);
 
     // Delete a Note with cartId
     app.delete('/session/:sessionId', session.delete);

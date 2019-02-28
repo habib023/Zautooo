@@ -4,7 +4,7 @@ const {client} = require('./client');
 const {car} = require('./car.model');
 
 const SessionSchema =mongoose.Schema({
-  heure: Number ,
+
   date: Date ,
    client: { 
         type: new mongoose.Schema({
@@ -31,7 +31,7 @@ const SessionSchema =mongoose.Schema({
 
 
   
- // validate: Boolean ,
+ 
   
 });
 

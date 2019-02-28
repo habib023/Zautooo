@@ -2,7 +2,8 @@ const config = require('../config.json');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const db = require('../_helpers/db');
-const Client = db.Client;
+const {Client} = require('../model/client'); 
+// const Client = db.Client;
 
 module.exports = {
     authenticate,
@@ -71,5 +72,5 @@ async function update(id, userParam) {
 }
 
 async function _delete(id) {
-    await Client.findByIdAndRemove(id);
+    await Client.findByIdAndDelete(id);
 }

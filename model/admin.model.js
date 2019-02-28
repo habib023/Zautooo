@@ -12,3 +12,4 @@ const Adminschema = new Schema({
 Adminschema.set('toJSON', { virtuals: true });
 
 module.exports = mongoose.model('Admin', Adminschema);
+
